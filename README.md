@@ -1,6 +1,14 @@
 # CT-CQL
 
-Official implementation of **Continuous-Time Counterfactual Quantile Learning for Risk-Sensitive Policy Optimization**, accepted at KDD 2026.
+Official implementation of our KDD 2026 paper.
+
+## Paper
+
+**Title:** Continuous-Time Counterfactual Quantile Learning for Risk-Sensitive Policy Optimization
+
+**Accepted at:** The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2026**), Jeju Island, Republic of Korea, August 9--13, 2026.
+
+**DOI:** [10.1145/3770854.3780271](https://doi.org/10.1145/3770854.3780271)
 
 CT-CQL models full counterfactual outcome distributions with stochastic differential equations governed by the Fokker--Planck equation. The implementation combines adversarial minimax training with a doubly robust AIPW objective for risk-sensitive policy learning under time-varying treatments.
 
